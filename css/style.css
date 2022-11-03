@@ -1,0 +1,155 @@
+/*layout based on flexbox*/
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    align-items: center;
+    font-family: Roboto;
+    background-color: #ffffff;
+}
+.container {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,h2 {
+    text-align: center;
+    display: block;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 40px;
+}
+
+.avatar{
+    display: block;
+    float: left;
+}
+
+.mainInfo{
+    display: block;
+
+}
+
+.textMainInfo{
+    font-weight:bolder;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.learningGoals{
+    display: block;
+    padding-left: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-style:ridge;
+}
+
+
+.studyMode{
+   display: block;
+   margin: 0;
+   margin-bottom: 40px;
+   padding-bottom: 20px;
+   border-style:ridge;
+}
+
+.containerForInfo{
+    display: block;
+    max-width: 800px;
+    padding-left: 100px;
+}
+
+.studyShedule{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.completedCourses {
+    display: block;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-style:ridge;
+}
+
+.table{
+    border-bottom-style:groove;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tableblocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstColumnCourses, .secondColumnCourses, .thirdColumnCourses {
+    display: block;
+    flex-direction: column;
+}
+
+footer{
+    
+    padding-bottom: 20px;
+    border-style:ridge;
+
+}
+
+.contactIcons{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around; 
+    vertical-align:middle;
+    text-align: center;
+    align-items: center;
+}
+
+.picButton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: rgb(255, 255, 255);
+}
+
+.contactNames{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.textButton{
+    min-width: 64px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: rgb(255, 255, 255);
+    font-family: Roboto;
+    text-align: center;
+}
+
+.aText{
+    text-decoration: none;
+    color: #000000;
+}
