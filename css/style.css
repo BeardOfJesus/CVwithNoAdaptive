@@ -38,7 +38,8 @@ header {
 
 .mainInfo{
     display: block;
-
+    padding-left: 20px;
+    line-height: 25px;
 }
 
 .textMainInfo{
@@ -76,6 +77,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.daysToStudy{
+    list-style: none;
+    line-height: 30px;
+}
+
+.hoursPerDay{
+    list-style: none;
+    line-height: 30px;
 }
 
 .completedCourses {
